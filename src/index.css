@@ -1,0 +1,60 @@
+.app-container {
+    border: 3px solid black;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-container {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form-input {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.form-button {
+    padding: 5px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.todo-content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 10px;
+}
+
+.todo-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.todo-checkbox {
+    margin-right: 10px;
+}
+
+.delete-button {
+    margin-left: auto; /* Pushes delete button to the far right */
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: red;
+}
